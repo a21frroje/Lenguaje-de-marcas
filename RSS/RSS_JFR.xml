@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <channel>
+    <title>Practica RSS</title>
+    <link>http://ejemplo.org</link>
+
+    <category>Lenguaje de marcas/RSS/XML</category>
+    <author>Jesús Frías Rojas</author>
+
+    <lenguage>Castellano</lenguage>
+    <lastBuildDate>24/02/2020</lastBuildDate>
+    <webMaster>a21frroje@iesgrancapitan.org</webMaster>
+
+    <skipDays>Sábados y Domingos</skipDays>
+    <skipHours>00:00 y 5:00</skipHours>
+    
+    <item>
+        <title>Artículo 1</title>
+        <link></link>
+        <description>Es el primer artículo de mi web</description>
+
+        <author>Jesús Frías Rojas</author>
+        <enclosure></enclosure>
+        <pubDate>24/02/2022</pubDate>
+        <source></source>
+
+    </item>
+
+    <item>
+        <title>Artículo 2</title>
+        <link></link>
+        <description>El segundo artículo de mi web</description>
+
+        <author>Jesús Frías Rojas</author>
+        <enclosure></enclosure>
+        <pubDate>24/02/2022</pubDate>
+        <source></source>
+
+    </item>
+
+    <item>
+        <title>Artículo 3</title>
+        <link></link>
+        <description>Este es el tercero</description>
+
+        <author>Jesús Frías Rojas</author>
+        <enclosure></enclosure>
+        <pubDate>24/02/2022</pubDate>
+        <source></source>
+
+    </item>
+
+    <item>
+        <title>Artículo 4</title>
+        <link></link>
+        <description>Último artículo de la web</description>
+
+        <author>Jesús Frías Rojas</author>
+        <enclosure></enclosure>
+        <pubDate>24/02/2022</pubDate>
+        <source></source>
+
+    </item>
+    </channel>
+</rss>
