@@ -3,64 +3,85 @@
     <channel>
     <title>Practica RSS</title>
     <link>http://ejemplo.org</link>
+    <description> Ejercicio de LM</description>
 
     <category>Lenguaje de marcas/RSS/XML</category>
-    <author>Jesús Frías Rojas</author>
+    <copyright>Jesús Frías Rojas</copyright>
 
-    <lenguage>Castellano</lenguage>
-    <lastBuildDate>24/02/2020</lastBuildDate>
+    <language>ES</language>
+    <lastBuildDate>Thu, 24 Feb 2022 08:00:00 EST</lastBuildDate>
     <webMaster>a21frroje@iesgrancapitan.org</webMaster>
 
-    <skipDays>Sábados y Domingos</skipDays>
-    <skipHours>00:00 y 5:00</skipHours>
+    <skipDays>
+        <day>Saturday</day>
+        <day>Sunday</day> 
+    </skipDays>
+    <skipHours>
+        <hour>0</hour>
+        <hour>5</hour>
+    </skipHours>
     
     <item>
         <title>Artículo 1</title>
-        <link></link>
+        <link>https://developer.mozilla.org/es/docs/Web/XML/XML_introduction</link>
         <description>Es el primer artículo de mi web</description>
 
-        <author>Jesús Frías Rojas</author>
-        <enclosure>
-            
-        </enclosure>
-        <pubDate>24/02/2022</pubDate>
-        <source></source>
+        <author>a21frroje@iesgrancapitan.org</author>
+        <enclosure
+            url="https://github.com/a21frroje/Lenguaje-de-marcas/blob/main/RSS/img/img_1.jpg"
+            length="12345"
+            type="image/jpg"
+        />
+        <pubDate>Thu, 24 Feb 2022 08:00:00 EST</pubDate>
+        <source url="https://github.com/a21frroje/Lenguaje-de-marcas/" />
 
     </item>
 
     <item>
         <title>Artículo 2</title>
-        <link></link>
+        <link>https://developer.mozilla.org/es/docs/Web/XML/XML_introduction</link>
         <description>El segundo artículo de mi web</description>
 
-        <author>Jesús Frías Rojas</author>
-        <enclosure></enclosure>
-        <pubDate>24/02/2022</pubDate>
-        <source></source>
+        <author>a21frroje@iesgrancapitan.org</author>
+        <enclosure
+            url="https://github.com/a21frroje/Lenguaje-de-marcas/blob/main/RSS/img/img_2.jpg"
+            length="12345"
+            type="image/jpg"
+        />
+        <pubDate>Thu, 24 Feb 2022 08:00:00 EST</pubDate>
+        <source url="https://github.com/a21frroje/Lenguaje-de-marcas/" />
 
     </item>
 
     <item>
         <title>Artículo 3</title>
-        <link></link>
+        <link>https://developer.mozilla.org/es/docs/Web/XML/XML_introduction</link>
         <description>Este es el tercero</description>
 
-        <author>Jesús Frías Rojas</author>
-        <enclosure></enclosure>
-        <pubDate>24/02/2022</pubDate>
-        <source></source>
+        <author>a21frroje@iesgrancapitan.org</author>
+        <enclosure
+            url="https://github.com/a21frroje/Lenguaje-de-marcas/blob/main/RSS/img/img_3.jpg"
+            length="12345"
+            type="image/jpg"
+        />
+        <pubDate>Thu, 24 Feb 2022 08:00:00 EST</pubDate>
+        <source url="https://github.com/a21frroje/Lenguaje-de-marcas/" />
 
     </item>
 
     <item>
         <title>Artículo 4</title>
-        <link></link>
+        <link>https://developer.mozilla.org/es/docs/Web/XML/XML_introduction</link>
         <description>Último artículo de la web</description>
 
-        <author>Jesús Frías Rojas</author>
-        <enclosure></enclosure>
-        <pubDate>24/02/2022</pubDate>
-        <source></source>
+        <author>a21frroje@iesgrancapitan.org</author>
+        <enclosure
+            url="https://github.com/a21frroje/Lenguaje-de-marcas/blob/main/RSS/img/img_4.jpg"
+            length="12345"
+            type="image/jpg"
+        />
+        <pubDate>Thu, 24 Feb 2022 08:00:00 EST</pubDate>
+        <source url="https://github.com/a21frroje/Lenguaje-de-marcas/" />
 
     </item>
     </channel>
